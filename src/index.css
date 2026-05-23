@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-editorial-bg: #0A0A0A;
+  --color-editorial-card: #121212;
+  --color-editorial-border: rgba(255, 255, 255, 0.08);
+  --color-editorial-border-hover: rgba(255, 255, 255, 0.2);
+  --color-editorial-accent: #FFFFFF;
+  --color-editorial-text-main: #F0F0F0;
+  --color-editorial-text-muted: #8E8E8E;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-heading: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom modern scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Base custom classes to enforce Editorial style */
+body {
+  font-family: var(--font-sans);
+  background-color: #0A0A0A;
+  color: #F0F0F0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
+
+/* Custom tracking helpers */
+.tracking-widest-editorial {
+  letter-spacing: 0.25em;
+}
+
+.tracking-extreme-editorial {
+  letter-spacing: 0.4em;
+}
+
+/* Refined borders mimicking the Vance design */
+.editorial-box {
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.30s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-box:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  background-color: #161616;
+}
+
+.editorial-divider {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
