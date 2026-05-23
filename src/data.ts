@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   email: 'anbuasai90@gmail.com',
   location: 'Kumbakonam, Tamil Nadu, India',
   github: '#',
-  linkedin: 'https://linkedin.com/in/asaikumaran-m',
+  linkedin: 'https://www.linkedin.com/in/asaikumaran-bbab99410/',
   summary:
     'Computer Science Engineering student with knowledge in Software Development, Data Structures, and Machine Learning. Experienced in building applications such as flood prediction and deepfake detection systems using Python and AI techniques. Strong problem-solving skills with interest in developing intelligent solutions.',
   declaration:
